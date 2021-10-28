@@ -15,6 +15,7 @@ import { NoteCardComponent } from './note-card/note-card.component';
 import { EditNoteComponent } from './edit-note/edit-note.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { RegisterComponent } from './register/register.component';
     EditNoteComponent,
     LoginComponent,
     RegisterComponent,
+    FooterComponent,
    
   ],
   imports: [
