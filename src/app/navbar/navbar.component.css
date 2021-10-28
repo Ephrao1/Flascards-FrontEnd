@@ -1,0 +1,51 @@
+.card {
+    font-size: 20px;
+    transform: translateY(-5px);
+    box-shadow: 0 4px 17px rgba(0, 255, 255, 0.527);
+    transition: all 0.3s ease-in-out;
+    background-color: black;
+  }
+
+ #view {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-color: black;
+    color: white;
+    text-align: center;
+   
+}
+
+.nav1 {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    overflow: auto;
+}
+.logo1 {
+    color: white;
+}
+.nav1 ul li {
+ text-decoration: none;
+ color: white;
+ padding: 8px 25px;
+ transition: all .5s ease;
+}
+.nav1 ul li:hover {
+    background-color: rgba(255, 255, 255, 0.527);
+    color: black;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.63);
+}
+a {
+    color: white;
+}
+.clear {
+    clear: both;
+}
+nav ul {
+    float: right;
+    list-style: none;
+}
+nav li {
+    float: left;
+    margin: 0rem 2rem;
+}
